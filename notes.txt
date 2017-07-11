@@ -1,0 +1,12 @@
+// HOC - combining normal component with higher order component which produces 'enhanced' or 'composed' component (component with additional functionality or data)
+
+// example might be HOC over authentication component, it should resolve if user is logged or not
+
+// how to use HOC ?
+
+// import Authentication <- this is HOC
+// import Resources <- this is component I want to wrap
+
+// const ComposedComponent = Authentication(Resources);
+
+//in some render method... <ComposedComponent />
